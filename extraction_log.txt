@@ -1,0 +1,6 @@
+Order ID: 3723
+Invoice ID: 24305126
+EAN: 7891058020286
+Response Quantity: 2
+Discount Percentage: 0.00
+

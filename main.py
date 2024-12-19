@@ -53,6 +53,7 @@ try:
                 ean_pattern = r'ean:"(\d+)"'
                 quantity_pattern = r'ordered_quantity:(\d+)'
                 discount_pattern = r'wholesaler_discount:(\d+\.\d{2})'
+                commercial_condition_pattern = r'commercial_condition:"(.+?)"'
 
                 id_match = re.search(id_pattern, log_data)
                 order_id = id_match.group(1) if id_match else None
@@ -63,10 +64,12 @@ try:
                 ean_match = re.search(ean_pattern, log_data)
                 quantity_match = re.search(quantity_pattern, log_data)
                 discount_match = re.search(discount_pattern, log_data)
+                commercial_condition_match = re.search(commercial_condition_pattern, log_data)
 
                 ean = ean_match.group(1) if ean_match else None
                 quantity = quantity_match.group(1) if quantity_match else None
                 discount = discount_match.group(1) if discount_match else None
+                commercial_condition = commercial_condition_match.group(1) if commercial_condition_match else None
 
               
                 extracted_data.append({
@@ -75,7 +78,8 @@ try:
                     "EAN": ean,
                     "Response Quantity": quantity,
                     "Discount Percentage": discount,
-                    "Return Date": row[4]  
+                    "Return Date": row[4],
+                    "Commercial Condition": commercial_condition
                 })
 
 except oracledb.DatabaseError as e:
@@ -90,6 +94,7 @@ with open('extraction_log.txt', 'a') as extraction_file:
         extraction_file.write(f"Response Quantity: {data['Response Quantity']}\n")
         extraction_file.write(f"Discount Percentage: {data['Discount Percentage']}\n")
         extraction_file.write(f"Return Date: {data['Return Date']}\n")
+        extraction_file.write(f"Commercial Condition: {data['Commercial Condition']}\n")
         extraction_file.write("\n")
 
 # Imprimindo os resultados
@@ -100,4 +105,5 @@ for data in extracted_data:
     print(f"Response Quantity: {data['Response Quantity']}")
     print(f"Discount Percentage: {data['Discount Percentage']}")
     print(f"Return Date: {data['Return Date']}")
+    print(f"Commercial Condition: {data['Commercial Condition']}")
     print("-" * 20)

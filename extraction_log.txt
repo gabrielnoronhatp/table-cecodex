@@ -1,0 +1,81 @@
+Order ID: 3723
+Invoice ID: 24305126
+EAN: 7891058020286
+Response Quantity: 2
+Discount Percentage: 0.00
+Return Date: 2024-12-04 17:07:49
+Commercial Condition: CSM
+Unit Discount Price: 0.00
+
+Order ID: 3723
+Invoice ID: 24305126
+EAN: 7891058020286
+Response Quantity: 2
+Discount Percentage: 0.00
+Return Date: 2024-12-04 17:07:49
+Commercial Condition: CSM
+Unit Discount Price: 0.00
+
+Order ID: 3723
+Invoice ID: 24305126
+EAN: 7891058020286
+Response Quantity: 2
+Discount Percentage: 0.00
+Return Date: 2024-12-04 17:07:49
+Commercial Condition: CSM
+Unit Discount Price: 0.00
+
+Order ID: 3723
+Invoice ID: 24305126
+EAN: 7891058020286
+Response Quantity: 2
+Discount Percentage: 0.00
+Return Date: 2024-12-04 17:07:49
+Commercial Condition: CSM
+Unit Discount Price: 0.00
+
+Order ID: 3723
+Invoice ID: 24305126
+EAN: 7891058020286
+Response Quantity: 2.0
+Discount Percentage: 0.0
+Return Date: 2024-12-04 17:07:49
+Commercial Condition: CSM
+Unit Discount Price: 0.0
+
+Order ID: 3723
+Invoice ID: 24305207
+EAN: 7891058020286
+Response Quantity: 6.0
+Discount Percentage: 5.99
+Return Date: 2024-12-04 17:26:53
+Commercial Condition: CSM
+Unit Discount Price: 2.41
+
+Order ID: 3723
+Invoice ID: 24305170
+EAN: 7891058016999
+Response Quantity: 1.0
+Discount Percentage: 0.0
+Return Date: 2024-12-04 17:51:43
+Commercial Condition: CSM
+Unit Discount Price: 0.0
+
+Order ID: 3723
+Invoice ID: 24305131
+EAN: 7891058021597
+Response Quantity: 2.0
+Discount Percentage: 0.0
+Return Date: 2024-12-04 18:18:53
+Commercial Condition: CSM
+Unit Discount Price: 0.0
+
+Order ID: 3723
+Invoice ID: 24305126
+EAN: 7891058020286
+Response Quantity: 2.0
+Discount Percentage: 0.0
+Return Date: 2024-12-04 17:07:49
+Commercial Condition: CSM
+Unit Discount Price: 0.0
+
